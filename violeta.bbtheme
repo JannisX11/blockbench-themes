@@ -1,0 +1,24 @@
+{
+	"main_font": "Ubuntu",
+	"headline_font": "Ubuntu",
+	"code_font": "Bo",
+	"css": "dialog {\n  background-color: rgba(20, 22, 30, 0.7);\n  backdrop-filter: blur(1px);\n}\n",
+	"colors": {
+		"ui": "#272329",
+		"back": "#272329",
+		"dark": "#1c171c",
+		"border": "#352340",
+		"selected": "#9268a7",
+		"button": "#2c182f",
+		"bright_ui": "#ce8ed9",
+		"accent": "#762198",
+		"frame": "#220f27",
+		"text": "#d09ce0",
+		"light": "#a77fcf",
+		"accent_text": "#7c5594",
+		"subtle_text": "#9d6faf",
+		"grid": "#6f4776",
+		"wireframe": "#200725",
+		"checkerboard": "#312038"
+	}
+}
