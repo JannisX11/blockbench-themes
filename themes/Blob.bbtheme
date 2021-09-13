@@ -1,8 +1,6 @@
 {
-	"id": "custom_theme",
 	"name": "Blob",
 	"author": "Wackyblocks",
-	"customized": true,
 	"borders": false,
 	"main_font": "",
 	"headline_font": "",
