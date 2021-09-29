@@ -1,10 +1,11 @@
 {
 	"name": "Portland",
 	"author": "JannisX11",
+	"borders": false,
 	"main_font": "",
 	"headline_font": "",
 	"code_font": "",
-	"css": "dialog {\n  background-color: rgba(12, 18, 26, 0.64);\n  backdrop-filter: blur(8px);\n}\n.vue-tree i.fa-folder,\n.vue-tree i.fa-anchor, \n.vue-tree i.fa-cube:not([class*=\" ec_\"]) {\n  color: var(--color-accent);\n}\n.dark_bordered {\n    padding-left: 8px;\n    padding-right: 8px;\n    background-color: rgba(37, 41, 53, 0.5);\n    font-size: 1.1em;\n    border: none;\n    border-radius: 2px;\n}\n.contextMenu {\n    background-color: rgba(37, 41, 53, 0.64);\n    backdrop-filter: blur(4px);\n    box-shadow: 0 0 2px rgba(0, 0, 0, 1);\n}\n.contextMenu li {\n    font-size: 0.95em;\n}\n.contextMenu li.focused, .contextMenu li.parent.opened {\n    color: var(--color-back);\n}\nli.menu_bar_point.opened {\n    color: var(--color-dark);\n}\nli.menu_separator{\n    background-color: #5a656d;\n    height: 1px;\n}\nbutton:hover {\n    color: #111213 !important;\n}\n.dialog_handle {\n    height: 40px;\n    padding: 6px 16px;\n    text-transform: uppercase;\n    font-size: 1.2em;\n    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);\n}\n.dialog_close_button {\n    position: absolute;\n    right: 0px;\n    top: 0px;\n    height: 28px;\n    width: 28px;\n    margin: 5px 8px;\n    padding: 3px;\n    border-radius: 50%;\n}\n#settings .bar.next_to_title {\n    margin-top: -64px;\n}\n.tooltip {\n    padding: 6px 10px;\n    height: 35px;\n    border-radius: 2px;\n    box-shadow: 0 0.4px 3.5px rgba(0, 0, 0, 0.64);\n    backdrop-filter: blur(8px);\n}\nh3.panel_handle {\n    padding: 2px 12px;\n    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.4);\n    margin-top: 2px;\n}\n::selection {\n    background: rgb(59, 229, 121, 0.3);\n}\n",
+	"css": "dialog {\n  background-color: rgba(12, 18, 26, 0.64);\n  backdrop-filter: blur(8px);\n}\n.vue-tree i.fa-folder,\n.vue-tree i.fa-anchor, \n.vue-tree i.fa-cube:not([class*=\" ec_\"]) {\n  color: var(--color-accent);\n}\n.dark_bordered {\n    padding-left: 8px;\n    padding-right: 8px;\n    background-color: rgba(37, 41, 53, 0.5);\n    font-size: 1.1em;\n    border: none;\n    border-radius: 2px;\n}\n.contextMenu {\n    background-color: rgba(37, 41, 53, 0.76);\n    backdrop-filter: blur(4px);\n    box-shadow: 0 0 2px rgba(0, 0, 0, 1);\n}\n.contextMenu li {\n    font-size: 0.95em;\n}\n.contextMenu li.focused, .contextMenu li.parent.opened {\n    color: var(--color-back);\n}\nli.menu_separator{\n    background-color: #5a656d;\n    height: 1px;\n}\nbutton:hover {\n    color: #111213 !important;\n}\n.dialog_handle {\n    height: 40px;\n    padding: 6px 16px;\n    text-transform: uppercase;\n    font-size: 1.2em;\n    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);\n}\n.dialog_close_button {\n    position: absolute;\n    right: 0px;\n    top: 0px;\n    height: 28px;\n    width: 28px;\n    margin: 5px 8px;\n    padding: 3px;\n    border-radius: 50%;\n}\n.dialog_menu_button {\n    padding: 8px 0px;\n}\n#settings .bar.next_to_title {\n    margin-top: -64px;\n}\n.tooltip {\n    padding: 6px 10px;\n    height: 35px;\n    border-radius: 2px;\n    box-shadow: 0 0.4px 3.5px rgba(0, 0, 0, 0.64);\n    backdrop-filter: blur(8px);\n}\nh3.panel_handle {\n    padding: 2px 12px;\n    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.3);\n    margin-top: 2px;\n}\n::selection {\n    background: rgb(59, 229, 121, 0.3);\n}\n",
 	"colors": {
 		"ui": "#1c212d",
 		"back": "#151924",
@@ -14,9 +15,12 @@
 		"button": "#151924",
 		"bright_ui": "#262f37",
 		"accent": "#3be579",
+		"frame": "#0b0d0f",
 		"text": "#d2d4db",
 		"light": "#e8eef2",
-		"accent_text": "#d2daee",
+		"accent_text": "#13161d",
+		"bright_ui_text": "#cdd5e4",
+		"subtle_text": "#848891",
 		"grid": "#585f6f",
 		"wireframe": "#576f82",
 		"checkerboard": "#2e3643"
