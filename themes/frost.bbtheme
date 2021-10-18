@@ -1,0 +1,28 @@
+{
+	"name": "Frost",
+	"author": "RyanGar46",
+	"borders": true,
+	"main_font": "",
+	"headline_font": "",
+	"code_font": "",
+	"css": ":root {\n  --round-small: 8px;\n  --round-large: 16px;\n  --hover-speed: 0.25s;\n}\n\n@keyframes slide-up {\n  from { transform: translateY(16px); }\n  to { transform: translateY(0px); }\n}\n@keyframes slide-down {\n  from { transform: translateY(-16px); }\n  to { transform: translateY(0px); }\n}\n@keyframes slide-right {\n  from { transform: translateX(16px); }\n  to { transform: translateX(0px); }\n}\n@keyframes slide-left {\n  from { transform: translateX(-16px); }\n  to { transform: translateX(0px); }\n}\n\n/* Dialog */\n.dialog {\n  backdrop-filter: blur(8px);\n  background: rgba(0, 0, 0, 0.1);\n  border: var(--round-small) solid transparent;\n  border-radius: var(--round-small);\n}\n\n.dialog_handle {\n  background: transparent;\n  display: flex;\n}\n\n.dialog_sidebar {\n  border-radius: var(--round-small);\n}\n\n.dialog_sidebar_pages li:hover {\n  transform: translateX(8px);\n}\n\n.dialog_close_button {\n  border-radius: var(--round-small)\n  transition: all var(--hover-speed);\n}\n.dialog_close_button:hover {\n  transition: all var(--hover-speed);\n}\n\n/* Inputs */\ninput[type=\"text\"] {\n  border-radius: var(--round-small);\n}\n\nbutton[type=\"button\"] {\n  border-radius: var(--round-small);\n  transition: all var(--hover-speed);\n}\n\n/* Code Editor */\n#css_editor {\n  border-radius: var(--round-large);\n}\n\n.prism-editor-wrapper {\n  border-radius: var(--round-large);\n}\n\n/* Color Selection */\n.color_input {\n  border-radius: var(--round-small);\n}\n\n/* Context Menu */\n.contextMenu {\n  border-radius: var(--round-small);\n  backdrop-filter: blur(8px);\n  background: rgba(0, 0, 0, 0.1);\n  color: var(--color-text);\n}\n\n.contextMenu .sub {\n  animation: slide-up 0.25s;\n  background: var(--color-ui);\n}\n\n.contextMenu li {\n  transition: all var(--hover-speed);\n  border-radius: var(--round-small);\n}\n\n/* Keybind Menu */\n.keybindslot {\n  border-radius: var(--round-small);\n}\n\n/* Start Screen */\n#start_screen content {\n  border-radius: var(--round-large);\n  overflow: hidden;\n}\n\n/* Window Buttons */\n#windows_window_menu {\n  transition: all var(--hover-speed);\n}\n\n",
+	"colors": {
+		"ui": "#282c34",
+		"back": "#21252b",
+		"dark": "#17191d",
+		"border": "#181a1f",
+		"selected": "#474d5d",
+		"button": "#3a3f4b",
+		"bright_ui": "#f4f3ff",
+		"accent": "#3e90ff",
+		"frame": "#181a1f",
+		"text": "#cacad4",
+		"light": "#f4f3ff",
+		"accent_text": "#000006",
+		"bright_ui_text": "#000006",
+		"subtle_text": "#848891",
+		"grid": "#495061",
+		"wireframe": "#576f82",
+		"checkerboard": "#1c2026"
+	}
+}
