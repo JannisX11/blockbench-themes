@@ -1,0 +1,24 @@
+{
+	"main_font": "",
+	"headline_font": "",
+	"code_font": "",
+	"css": "\n",
+	"colors": {
+		"ui": "#ffffff",
+		"back": "#ffffff",
+		"dark": "#ffffff",
+		"border": "#000000",
+		"selected": "#ffffff",
+		"button": "#ffffff",
+		"bright_ui": "#ffffff",
+		"accent": "#d1e5ff",
+		"frame": "#ffffff",
+		"text": "#000000",
+		"light": "#515568",
+		"accent_text": "#000000",
+		"subtle_text": "#484848",
+		"grid": "#000000",
+		"wireframe": "#000000",
+		"checkerboard": "#ffffff"
+	}
+}
