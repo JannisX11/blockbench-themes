@@ -1,0 +1,6 @@
+{
+	"name": "Compact Timeline",
+	"author": "Ewan Howell",
+	"css": "#timeline_body li > div {\n  min-height: 16px;\n  height: 16px;\n}\n\n#panel_timeline .keyframe i {\n  font-size: 10px!important;\n  margin-top: 3px!important;\n}\n\n#timeline_body_inner {\n  font-size: 12px;\n}\n\n#timeline_body_inner .animator_head_bar .channel_head .text_button:nth-child(3) i, #timeline_body_inner .animator_channel_bar .channel_head .text_button:nth-child(3) i {\n  font-size: 16px;\n}\n\n#timeline_body_inner .channel_mute {\n  font-size: 12px!important;\n}\n\n#timeline_playhead::after {\n  width: 1px;\n}",
+	"colors": {}
+}
