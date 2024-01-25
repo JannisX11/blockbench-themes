@@ -10,9 +10,9 @@
 		"ui": "#564542",
 		"back": "#493635",
 		"dark": "#382929",
-		"border": "#6b5451",
-		"selected": "#6b5451",
-		"button": "#6b5451",
+		"border": "#6c5552",
+		"selected": "#6c5552",
+		"button": "#6c5552",
 		"bright_ui": "#493635",
 		"accent": "#ea7270",
 		"frame": "#382929",
@@ -21,7 +21,7 @@
 		"accent_text": "#382929",
 		"bright_ui_text": "#e59682",
 		"subtle_text": "#b78c86",
-		"grid": "#6b5451",
+		"grid": "#6c5552",
 		"wireframe": "#d75959",
 		"checkerboard": "#382929"
 	}
