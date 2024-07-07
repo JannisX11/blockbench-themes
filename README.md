@@ -8,7 +8,7 @@ For Blockbench 4.0+.
 
 ## Submitting themes
 
-You can submit a plugin by opening a Pull Request:
+You can submit a theme by opening a Pull Request:
 
 * Create your theme in the Blockbench theme editor. Make sure to enter title and author.
 * Export your theme as a bbtheme file.
@@ -17,4 +17,3 @@ You can submit a plugin by opening a Pull Request:
 **Please note** that submitted themes need to meet a pretty high quality standard because it will appear directly in Blockbench. Themes need to be unique and pleasant to look at.
 
 Learn more about creating custom themes on the [Custom Themes Wiki Page](https://www.blockbench.net/wiki/blockbench/themes).
-
