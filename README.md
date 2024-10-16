@@ -22,16 +22,16 @@ Learn more about creating custom themes on the [Custom Themes Wiki Page](https:/
 
 ```js
 {
-  "name": "Theme Name", // The name of the theme
-  "author": "Author Name", // Your name
-  "borders": false, // Should the theme enable Blockbench's built in borders
-  "main_font": "Font Name", // The main font
-  "headline_font": "Font Name", // The font for headings
-  "code_font": "Font Name", // The font for code
-  "css": "body { filter: invert() }", // Custom CSS for the theme
+  "name": "Theme Name",                                       // The name of the theme
+  "author": "Author Name",                                    // Your name
+  "borders": false,                                           // Should the theme enable Blockbench's built in borders
+  "main_font": "Font Name",                                   // The main font
+  "headline_font": "Font Name",                               // The font for headings
+  "code_font": "Font Name",                                   // The font for code
+  "css": "body { filter: invert() }",                         // Custom CSS for the theme
   "thumbnail": ".theme_preview_window  { filter: invert() }", // Custom CSS for the theme's thumbnail
-  "desktop_only": false, // Set the theme to be desktop only
-  "colors": { // Colors to replace Blockbench's default colour scheme
+  "desktop_only": false,                                      // Set the theme to be desktop only
+  "colors": {                                                 // Colors to replace Blockbench's default colour scheme
     "ui": "#2b2d31",
     "back": "#232428",
     "dark": "#1a1b1e",
