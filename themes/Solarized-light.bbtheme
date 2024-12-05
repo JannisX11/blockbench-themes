@@ -1,0 +1,29 @@
+{
+	"name": "Solarized (Light)",
+	"author": "LD_Anvil",
+	"borders": false,
+	"main_font": "",
+	"headline_font": "",
+	"code_font": "",
+	"css": ".checkerboard, .checkerboard_trigger .checkerboard_target {\n    --color-checker_offset: rgba(0, 0, 0, 0.05);\n}\n.list {\n  background-color: transparent;\n}\n#center {\n  box-shadow: 0 0 12px inset #00000017;\n}\n#start_screen > content {\n  box-shadow: 0 0 10px #0003;\n}\nbody {\n  --color-close: #ff5062;\n  --color-bright_border: var(--color-border);\n}\ndialog {\n  box-shadow: 0 0px 6px rgb(0 0 0 / 50%);\n}\n.blockbench_logo {\n  mix-blend-mode: difference;\n}\n",
+	"thumbnail": "",
+	"colors": {
+		"ui": "#fdf6e3",
+		"back": "#eee8d5",
+		"dark": "#d6d0bf",
+		"border": "#ddd1ab",
+		"selected": "#f2eedf",
+		"button": "#ded3b2",
+		"bright_ui": "#fcf1d6",
+		"accent": "#2aa198",
+		"frame": "#e5dcc0",
+		"text": "#002b36",
+		"light": "#586e75",
+		"accent_text": "#073642",
+		"bright_ui_text": "#586e75",
+		"subtle_text": "#93a1a1",
+		"grid": "#beb8aa",
+		"wireframe": "#859900",
+		"checkerboard": "#fdf6e3"
+	}
+}
